@@ -1,0 +1,64 @@
+- HTML FILE
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <meta charset=UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Responsive Site</title>
+         <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="
+            <li><a href="#about">About</a></li>
+            <li><a href="
+        </ul>
+    </nav>
+    <section id="home">
+        <h1>Welcome</h1>
+        <p>This is home content.</p>   
+    </section>                 
+                     
+    <section id="about">
+      <h2>AU University</h2>    
+      <p>We do cool stuff.</p> 
+    </section>   
+                     
+    <section id="contact">
+             <h2>1234567899</h2>    
+      <p>Get in touch.</p> 
+</body>
+</html>
+-CSS FILE
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-colour: #333;
+    margin: 0;
+}
+
+
+nav ul li a {
+    color: white;
+    tect-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+
+section {
+    padding: 2em;
+}
+
+
+@media (max-width: 600px)  {
+  
+    nav ul {
+        flex-direction: column;
+        align-items:center;
+    }
+}
