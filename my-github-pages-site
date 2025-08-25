@@ -1,0 +1,50 @@
+index.html
+<!DOCTYPE html>
+<html lang=”en>
+<head>
+         <meta charset=UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Responsive Site</title>
+         <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="
+            <li><a href="#about">About</a></li>
+            <li><a href="
+        </ul>
+    </nav>
+    <section id="home">Home Section</section>
+    <section id="about">About Section</section>
+    <section id="contact">Contact Section</section>
+
+    style.css
+</body>
+</html>
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-colour: #333;
+}
+
+nav ul li a {
+    color: white;
+    tect-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+section {
+    padding: 2em;
+}
+
+@media (max-width: 600px)  {
+  
+    nav ul {
+        flex-direction: column;
+    }
+}
