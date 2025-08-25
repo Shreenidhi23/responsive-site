@@ -1,0 +1,26 @@
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    background-colour: #333;
+}
+
+nav ul li a {
+    color: white;
+    tect-decoration: none;
+    padding: 1em;
+    display: block;
+}
+
+section {
+    padding: 2em;
+}
+
+@media (max-width: 600px)  {
+  
+    nav ul {
+        flex-direction: column;
+    }
+}
