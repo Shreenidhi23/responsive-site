@@ -5,6 +5,7 @@ nav ul {
     display: flex;
     justify-content: space-around;
     background-colour: #333;
+    margin: 0;
 }
 
 nav ul li a {
@@ -22,5 +23,6 @@ section {
   
     nav ul {
         flex-direction: column;
+        align-items:center;
     }
 }
