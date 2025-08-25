@@ -1,6 +1,7 @@
-index.html
+- HTML FILE
+
 <!DOCTYPE html>
-<html lang=”en>
+<html lang="en">
 <head>
          <meta charset=UTF-8">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,21 +16,31 @@ index.html
             <li><a href="
         </ul>
     </nav>
-    <section id="home">Home Section</section>
-    <section id="about">About Section</section>
-    <section id="contact">Contact Section</section>
-
-    style.css
+    <section id="home">
+        <h1>Welcome</h1>
+        <p>This is home content.</p>   
+    </section>                 
+                     
+    <section id="about">
+      <h2>AU University</h2>    
+      <p>We do cool stuff.</p> 
+    </section>   
+                     
+    <section id="contact">
+             <h2>1234567899</h2>    
+      <p>Get in touch.</p> 
 </body>
 </html>
-
+-CSS FILE
 nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: space-around;
     background-colour: #333;
+    margin: 0;
 }
+
 
 nav ul li a {
     color: white;
@@ -38,13 +49,16 @@ nav ul li a {
     display: block;
 }
 
+
 section {
     padding: 2em;
 }
+
 
 @media (max-width: 600px)  {
   
     nav ul {
         flex-direction: column;
+        align-items:center;
     }
 }
